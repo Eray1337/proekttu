@@ -10,4 +10,28 @@ public class GradeRecord {
         this.discipline = discipline;
         this.grade = grade;
     }
+
+    public String getFacultyNumber() {
+        return facultyNumber;
+    }
+
+    public void setFacultyNumber(String facultyNumber) {
+        this.facultyNumber = facultyNumber;
+    }
+
+    public String getDiscipline() {
+        return discipline;
+    }
+
+    public void setDiscipline(String discipline) {
+        this.discipline = discipline;
+    }
+
+    public double getGrade() {
+        return grade;
+    }
+
+    public void setGrade(double grade) {
+        this.grade = grade;
+    }
 }
